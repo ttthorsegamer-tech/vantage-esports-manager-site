@@ -103,3 +103,13 @@
 .support-link-grid span{color:var(--muted);font-size:.9rem;line-height:1.6}
 @media(max-width:900px){.support-grid,.support-link-grid{grid-template-columns:1fr}.support-detail{grid-template-columns:1fr}}
 @media(max-width:760px){.support-hero{padding:54px 0 42px}.support-grid{padding-bottom:58px}.support-band{padding:58px 0}.support-links{padding:58px 0 72px}}
+
+
+/* VANTAGE 404 */
+.secondary-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border:1px solid rgba(39,229,255,.3);border-radius:12px;color:#dce9f5;text-decoration:none;font-weight:900;background:rgba(39,229,255,.04)}
+.secondary-btn:hover{border-color:rgba(39,229,255,.6);background:rgba(39,229,255,.08)}
+.error-page{min-height:68vh;display:grid;place-items:center;text-align:center;padding-top:70px;padding-bottom:70px}
+.error-page .crest{margin:0 auto 24px}
+.error-page h1{font-size:clamp(2.5rem,7vw,4.8rem);line-height:1;margin:12px 0 18px}
+.error-page p{max-width:650px;margin:0 auto;color:var(--muted)}
+.error-page .hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}
