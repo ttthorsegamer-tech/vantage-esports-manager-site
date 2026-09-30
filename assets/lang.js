@@ -100,6 +100,9 @@
   try{
     lang=localStorage.getItem(LANG_KEY)||((navigator.language||"").toLowerCase().startsWith("en")?"en":"fr");
   }catch(e){}
+  // Explicit app links override the browser language and prior site preference.
+  const requestedLang=new URLSearchParams(window.location.search).get("lang");
+  if(supported.includes(requestedLang)) lang=requestedLang;
   setLang(lang);
 
   document.addEventListener("click",e=>{
