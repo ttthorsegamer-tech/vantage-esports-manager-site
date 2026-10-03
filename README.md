@@ -37,4 +37,12 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - The home page presents corrected Nova, crate images and Battle Pass premium icons in French and English.
 - Daily entries contribute 1,500 and weekly entries 3,500 in-game cash to the next Major pool.
 - Five server-recorded qualifiers against the same opponent series determine the 64 playoff spots, with fresh qualification each edition and frozen standings after the deadline.
-- The new 2.0.3 build remains forthcoming. When available on the testing track, testers must update the app through Google Play rather than the in-game menu; that build becomes the next OTA baseline.
+- The next native build is 2.1.0 and remains forthcoming. When available on the testing track, testers must update the app through Google Play rather than the in-game menu; that build becomes the next OTA baseline.
+
+## 2.1.0 version baseline — October 3, 2026
+
+- The home page and its English description now present VANTAGE 2.1.0 as the new baseline.
+- French and English release status says migration/build preparation is in progress; it does not claim the native build or an OTA 2.1.0 is already available.
+- Testers must install the native 2.1.0 update through Google Play once it is available on the test track.
+- Add the public Google Play download link only after public publication.
+- Existing skin, tournament, community and synergy content remains in place.
