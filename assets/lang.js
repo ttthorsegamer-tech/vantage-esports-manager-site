@@ -1,8 +1,8 @@
 (()=>{
   const LANG_KEY='vantage-lang',MUSIC_KEY='vantage-music-enabled',MUSIC_VOLUME_KEY='vantage-music-volume';
   const DEFAULT_MUSIC_VOLUME=.08,MAX_MUSIC_VOLUME=.20,supported=['fr','en'];
-  // Set only to the owner's permanent public invitation when it is available.
-  const DISCORD_INVITE='';
+  // Owner's verified public invitation; update the HTML fallback at the same time.
+  const DISCORD_INVITE='https://discord.gg/2f2zk9ryU';
   const root=document.documentElement;
   root.classList.add('js');
   const nav=document.querySelector('.nav'),menuButton=document.querySelector('.menu-toggle'),navigation=document.querySelector('.primary-nav');
