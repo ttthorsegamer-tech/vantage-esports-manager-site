@@ -219,3 +219,6 @@ a.discord-link,.foot a.discord-link{display:inline-flex;align-items:center;gap:8
 @media(max-width:1000px){.home-hero{gap:28px}.update-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.update-grid article{padding:20px}.feature-art{width:calc(100% + 40px);margin:-20px -20px 20px}}
 @media(max-width:760px){.home-hero{grid-template-columns:1fr;gap:28px}.update-grid{grid-template-columns:1fr}.feature-art{max-height:230px;object-fit:cover}.home-hero-art{max-width:600px;width:100%;margin:0 auto}.app-hero-visual{border-radius:20px}.app-visual{border-radius:18px}.app-hero-visual figcaption{padding:25px 18px 15px}.community-showcase{padding-bottom:32px}}
 @media(max-width:620px){.home-hero{gap:26px}.discord-logo{width:22px;height:16.5px;flex-basis:22px}.duo-visual{min-height:260px}}
+
+/* Patch notes keep long lists readable in both languages. */
+.release-notes{max-width:950px}.release-notes .app-visual{margin:28px 0}.release-notes .app-visual img{display:block;width:100%;height:auto}.release-notes h2{margin-top:38px}.release-list{padding-left:22px;color:#d0d9eb}.release-list li{margin:0 0 14px;padding-left:5px}.release-notes .support-actions{margin-top:32px}

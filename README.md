@@ -46,3 +46,11 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Testers must install the native 2.1.0 update through Google Play once it is available on the test track.
 - Add the public Google Play download link only after public publication.
 - Existing skin, tournament, community and synergy content remains in place.
+
+
+## 2.1.1 release notes — October 3, 2026
+
+- Runtime/native baseline remains Android 2.1.0; OTA patch 2.1.1 is prepared, NOT published on Expo yet. Server academy/tutorial fixes are deployed.
+- Home summaries and bilingual `/updates/` notes cover tutorial validation/retry, academy training/PP, server synchronization and account/interface fixes.
+- Notes distinguish confirmed server deployment, build validation and pending OTA/phone validation.
+- Existing public Discord invitation, app artwork, prior tournament/skin corrections, synergy discovery and legal content are retained.
