@@ -30,3 +30,11 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Current tournament entry fees and formats are shown in French and English: daily 5,000 / 16; new weekly 10,000 / 32; next Major 25,000 including 5,000 to the shared pool / Top 64 with unlimited registration. Old runs retain their format.
 - The weekly champion reward is 250,000 in-game cash; the shared pool belongs to the next Major.
 - The community invitation opens Discord directly instead of requesting an invitation by email. Account and purchase support email links remain available.
+
+## 2.0.3 website update — October 3, 2026
+
+- The owner confirmed OTA 2.0.3 is deployed and available for testers.
+- The home page presents corrected Nova, crate images and Battle Pass premium icons in French and English.
+- Daily entries contribute 1,500 and weekly entries 3,500 in-game cash to the next Major pool.
+- Five server-recorded qualifiers against the same opponent series determine the 64 playoff spots, with fresh qualification each edition and frozen standings after the deadline.
+- The new 2.0.3 build remains forthcoming. When available on the testing track, testers must update the app through Google Play rather than the in-game menu; that build becomes the next OTA baseline.
