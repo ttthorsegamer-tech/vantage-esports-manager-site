@@ -9,7 +9,7 @@ Static bilingual French/English website served by GitHub Pages at https://vantag
 - Mobile navigation supports the menu button, Escape and outside clicks; navigation remains usable without JavaScript.
 - The hero uses a WebP version of the existing logo. Its original PNG remains available for social previews.
 - Music loads after interaction, with saved mute/volume settings and an 8% initial volume.
-- Public Discord information lives at `/community/`. Set `DISCORD_INVITE` in `assets/lang.js` only to the owner's verified permanent invitation; until then the invitation request uses official support email.
+- Public Discord information lives at `/community/`. Its Join Discord button uses the owner's verified public invitation in both HTML and `DISCORD_INVITE` in `assets/lang.js`, and works without JavaScript. The invitation currently has a 30-day expiry; renew it before it expires. It does not assign the Tester role or expose private test channels.
 - Change the CSS/script query version in all HTML pages when publishing later asset updates.
 
 ## 2.0.0 website refresh
@@ -23,3 +23,10 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - `assets/app/` contains optimized WebP copies of existing VANTAGE application visuals. Keep their original aspect ratios.
 - Public synergy pages explain the roles and encourage experimentation. Do not publish weapon-to-role bonus tables, percentages, caps or calculation formulas on the website.
 - French and English content, the mobile menu, music preferences and the existing support/invitation flow remain available.
+
+## 2.0.2 website update — October 3, 2026
+
+- The home page presents version 2.0.2 and accurately states that its OTA publication is pending.
+- Current tournament entry fees and formats are shown in French and English: daily 5,000 / 16; new weekly 10,000 / 32; next Major 25,000 including 5,000 to the shared pool / Top 64 with unlimited registration. Old runs retain their format.
+- The weekly champion reward is 250,000 in-game cash; the shared pool belongs to the next Major.
+- The community invitation opens Discord directly instead of requesting an invitation by email. Account and purchase support email links remain available.
