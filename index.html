@@ -11,10 +11,10 @@
 <meta property="og:url" content="https://vantageesportsmanager.xyz/">
 <meta property="og:image" content="https://vantageesportsmanager.xyz/assets/vantage-logo-hero.png">
 <meta name="theme-color" content="#050914">
-<link rel="stylesheet" href="/assets/style.css?v=200-20261002">
-<script defer src="/assets/lang.js?v=200-20261002"></script>
+<link rel="stylesheet" href="/assets/style.css?v=200-20261003-discord">
+<script defer src="/assets/lang.js?v=200-20261003-discord"></script>
 <link rel="icon" href="/assets/vantage-logo.webp" type="image/webp">
-<link rel="preload" as="image" href="/assets/vantage-logo-hero.webp" type="image/webp">
+<link rel="preload" as="image" href="/assets/app/home.webp" type="image/webp">
 </head>
 <body>
 <a class="skip-link" href="#main-content"><span class="fr">Aller au contenu</span><span class="en">Skip to content</span></a>
@@ -25,7 +25,7 @@
 <nav id="site-navigation" class="primary-nav" aria-label="Navigation principale" data-label-fr="Navigation principale" data-label-en="Main navigation">
 <a href="/discover/"><span class="fr">Découvrir</span><span class="en">Discover</span></a>
 <a href="/synergy/"><span class="fr">Synergie</span><span class="en">Synergy</span></a>
-<a href="/community/">Discord</a>
+<a href="/community/" class="discord-link"><img class="discord-logo" src="/assets/discord-symbol-white.svg" width="24" height="18" alt="" aria-hidden="true">Discord</a>
 <a href="/support/">Support</a>
 </nav>
 <div class="lang-switch" role="group" aria-label="Langue" data-label-fr="Langue" data-label-en="Language"><button type="button" data-lang="fr" aria-label="Français">FR</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-label="English">EN</button></div>
@@ -38,9 +38,16 @@
 <div class="en"><h1>Build your esports legacy.</h1><p>Recruit your five, choose your tactics and grow your club. Every match, every player and every decision matters.</p></div>
 <div class="release-strip"><span class="release-dot" aria-hidden="true"></span><strong>VANTAGE 2.0.0</strong><span class="fr">Test fermé Google Play</span><span class="en">Google Play closed testing</span></div>
 <div class="badges"><span>Android</span><span><span class="fr">Matchs en direct</span><span class="en">Live matches</span></span><span>PvP &amp; Arena</span></div>
-<div class="hero-actions"><a class="primary-btn" href="/discover/"><span class="fr">Découvrir le jeu</span><span class="en">Explore the game</span></a><a class="secondary-btn discord-btn" href="/community/">Discord <span aria-hidden="true">↗</span></a></div>
+<div class="hero-actions"><a class="primary-btn" href="/discover/"><span class="fr">Découvrir le jeu</span><span class="en">Explore the game</span></a><a class="discord-link secondary-btn discord-btn" href="/community/"><img class="discord-logo" src="/assets/discord-symbol-white.svg" width="24" height="18" alt="" aria-hidden="true">Discord <span aria-hidden="true">↗</span></a></div>
 </div>
-<div class="home-hero-art"><img class="hero-logo" src="/assets/vantage-logo-hero.webp" width="420" height="420" alt="VANTAGE Esports Manager" fetchpriority="high" decoding="async"><div class="hero-art-caption"><span class="fr">Recrute. Prépare. Domine.</span><span class="en">Recruit. Prepare. Dominate.</span></div></div>
+<div class="home-hero-art">
+<figure class="app-hero-visual">
+<img class="" src="/assets/app/home.webp" width="1200" height="671" alt="Le club VANTAGE, entre salle des trophées et arène esport" data-alt-fr="Le club VANTAGE, entre salle des trophées et arène esport" data-alt-en="The VANTAGE club, from the trophy room to the esports arena" fetchpriority="high" decoding="async">
+<img class="app-hero-brand" src="/assets/vantage-logo-hero.webp" width="420" height="420" alt="VANTAGE Esports Manager" decoding="async">
+<figcaption><span class="fr">Ton club. Ton ambition.</span><span class="en">Your club. Your ambition.</span></figcaption>
+</figure>
+<div class="hero-art-caption"><span class="fr">Les visuels de ton univers VANTAGE.</span><span class="en">The visuals of your VANTAGE world.</span></div>
+</div>
 </section>
 <section class="wrap grid">
 <article>
@@ -58,28 +65,24 @@
 </section>
 <section class="wrap synergy-home">
   <div class="synergy-home-copy">
-    <div class="fr"><span class="kicker">SYNERGIE VANTAGE</span><h2>Le bon joueur, dans le bon rôle, avec le bon équipement.</h2><p>La synergie agit à plusieurs niveaux : une arme adaptée au rôle du joueur peut ajouter un bonus, tandis que Duo Clash mesure aussi la qualité de l’association entre deux joueurs selon leurs profils, leur moral et la forme du club.</p><a class="primary-btn" href="/synergy/">Comprendre toute la synergie</a></div>
-    <div class="en"><span class="kicker">VANTAGE SYNERGY</span><h2>The right player, in the right role, with the right equipment.</h2><p>Synergy works on several levels: a weapon that fits a player’s role can add a bonus, while Duo Clash also measures how well two players fit together through profiles, morale and club form.</p><a class="primary-btn" href="/synergy/">Understand the full synergy system</a></div>
+    <div class="fr"><span class="kicker">SYNERGIE VANTAGE</span><h2>Le bon joueur, dans le bon rôle, avec le bon équipement.</h2><p>La synergie agit à plusieurs niveaux : une arme adaptée au rôle du joueur peut ajouter un bonus, tandis que Duo Clash mesure aussi la qualité de l’association entre deux joueurs selon leurs profils, leur moral et la forme du club.</p><a class="primary-btn" href="/synergy/">Explorer la synergie</a></div>
+    <div class="en"><span class="kicker">VANTAGE SYNERGY</span><h2>The right player, in the right role, with the right equipment.</h2><p>Synergy works on several levels: a weapon that fits a player’s role can add a bonus, while Duo Clash also measures how well two players fit together through profiles, morale and club form.</p><a class="primary-btn" href="/synergy/">Explore synergy</a></div>
   </div>
-  <div class="synergy-preview" aria-label="VANTAGE synergy preview">
-    <div class="synergy-duo"><div><b>AWPer</b><span>AWP equipped</span></div><span class="synergy-plus">+</span><div><b>ROLE FIT</b><span>weapon bonus</span></div></div>
-    <div class="synergy-score"><small>ROLE ↔ WEAPON</small><strong>+4%</strong></div>
-    <div class="synergy-mini-factors"><span>EQUIPMENT</span><span>DUO FIT</span><span>FORM</span></div>
-  </div>
+  <figure class="app-visual "><img class="" src="/assets/app/equipment.webp" width="1200" height="671" alt="L’univers équipement de VANTAGE" data-alt-fr="L’univers équipement de VANTAGE" data-alt-en="The VANTAGE equipment world" loading="lazy" decoding="async"><figcaption><span class="fr">Essaie tes équipements. Trouve tes associations.</span><span class="en">Try your equipment. Find your combinations.</span></figcaption></figure>
 </section>
 
 <section class="wrap discover-section update-section">
 <div class="section-heading"><span class="kicker">VANTAGE 2.0.0</span><h2 class="fr">Un match plus lisible. Un club plus vivant.</h2><h2 class="en">Clearer matches. A club that feels alive.</h2></div>
 <div class="update-grid">
-<article><span class="feature-index">01</span><h3 class="fr">Suis chaque duel</h3><h3 class="en">Follow every duel</h3><p class="fr">Les noms prennent la couleur de leur équipe. En match régulier, CT est bleu et T orange, avec changement de côté après 12 rounds.</p><p class="en">Player names follow their team’s color. In regular matches, CT is blue and T is orange, with a side switch after 12 rounds.</p></article>
-<article><span class="feature-index">02</span><h3 class="fr">Retrouve ton prochain tournoi</h3><h3 class="en">Find your next tournament match</h3><p class="fr">Quotidien, hebdomadaire et Major : une petite alerte te rappelle quand ton prochain match est prêt.</p><p class="en">Daily, weekly and Major tournaments: a small reminder shows when your next match is ready.</p></article>
-<article><span class="feature-index">03</span><h3 class="fr">Prends tes repères</h3><h3 class="en">Find your way</h3><p class="fr">Des aides « ? », des retours dans Arena et des effectifs IA variés rendent la préparation plus simple.</p><p class="en">Help buttons, Arena back navigation and varied AI rosters make preparation easier.</p></article>
+<article><img class="feature-art" src="/assets/app/match.webp" width="1200" height="671" alt="L’arène des matchs VANTAGE" data-alt-fr="L’arène des matchs VANTAGE" data-alt-en="The VANTAGE match arena" loading="lazy" decoding="async"><span class="feature-index">01</span><h3 class="fr">Suis chaque duel</h3><h3 class="en">Follow every duel</h3><p class="fr">Les noms prennent la couleur de leur équipe. En match régulier, CT est bleu et T orange, avec changement de côté après 12 rounds.</p><p class="en">Player names follow their team’s color. In regular matches, CT is blue and T is orange, with a side switch after 12 rounds.</p></article>
+<article><img class="feature-art" src="/assets/app/major.webp" width="1200" height="675" alt="Le trophée du Major VANTAGE" data-alt-fr="Le trophée du Major VANTAGE" data-alt-en="The VANTAGE Major trophy" loading="lazy" decoding="async"><span class="feature-index">02</span><h3 class="fr">Retrouve ton prochain tournoi</h3><h3 class="en">Find your next tournament match</h3><p class="fr">Quotidien, hebdomadaire et Major : une petite alerte te rappelle quand ton prochain match est prêt.</p><p class="en">Daily, weekly and Major tournaments: a small reminder shows when your next match is ready.</p></article>
+<article><img class="feature-art" src="/assets/app/club.webp" width="1200" height="671" alt="La salle du club VANTAGE" data-alt-fr="La salle du club VANTAGE" data-alt-en="The VANTAGE club room" loading="lazy" decoding="async"><span class="feature-index">03</span><h3 class="fr">Prends tes repères</h3><h3 class="en">Find your way</h3><p class="fr">Des aides « ? », des retours dans Arena et des effectifs variés rendent la préparation plus simple.</p><p class="en">Help buttons, Arena back navigation and varied rosters make preparation easier.</p></article>
 </div>
 </section>
 <section class="wrap community-home" aria-labelledby="community-home-title">
-<div><span class="kicker">VANTAGE × DISCORD</span><h2 id="community-home-title"><span class="fr">Le club continue au-delà du jeu.</span><span class="en">Your club goes beyond the game.</span></h2><p class="fr">Retrouve Vantage eSports Manager sur Discord pour suivre les annonces, proposer des idées et signaler un problème.</p><p class="en">Find Vantage eSports Manager on Discord for announcements, suggestions and issue reports.</p></div>
-<a class="primary-btn" href="/community/"><span class="fr">Découvrir la communauté</span><span class="en">Explore the community</span><span aria-hidden="true">↗</span></a>
+<div><span class="kicker discord-kicker"><img class="discord-logo" src="/assets/discord-symbol-white.svg" width="24" height="18" alt="" aria-hidden="true">VANTAGE × DISCORD</span><h2 id="community-home-title"><span class="fr">Le club continue au-delà du jeu.</span><span class="en">Your club goes beyond the game.</span></h2><p class="fr">Retrouve Vantage eSports Manager sur Discord pour suivre les annonces, proposer des idées et signaler un problème.</p><p class="en">Find Vantage eSports Manager on Discord for announcements, suggestions and issue reports.</p></div>
+<a class="discord-link primary-btn" href="/community/"><img class="discord-logo" src="/assets/discord-symbol-white.svg" width="24" height="18" alt="" aria-hidden="true"><span class="fr">Découvrir la communauté</span><span class="en">Explore the community</span><span aria-hidden="true">↗</span></a>
 </section>
 </main>
-<footer><div class="wrap foot"><span>© 2026 VANTAGE Esports Manager</span><span><a href="/community/">Discord</a> · <a href="/support/">Support</a> · <a href="/privacy/"><span class="fr">Confidentialité</span><span class="en">Privacy</span></a> · <a href="/terms/"><span class="fr">Conditions</span><span class="en">Terms</span></a> · <a href="/delete-account/"><span class="fr">Suppression de compte</span><span class="en">Delete account</span></a></span></div></footer>
+<footer><div class="wrap foot"><span>© 2026 VANTAGE Esports Manager</span><span><a href="/community/" class="discord-link"><img class="discord-logo" src="/assets/discord-symbol-white.svg" width="24" height="18" alt="" aria-hidden="true">Discord</a> · <a href="/support/">Support</a> · <a href="/privacy/"><span class="fr">Confidentialité</span><span class="en">Privacy</span></a> · <a href="/terms/"><span class="fr">Conditions</span><span class="en">Terms</span></a> · <a href="/delete-account/"><span class="fr">Suppression de compte</span><span class="en">Delete account</span></a></span></div></footer>
 </body></html>

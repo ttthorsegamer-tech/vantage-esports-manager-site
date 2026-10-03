@@ -52,6 +52,7 @@
     try{localStorage.setItem(LANG_KEY,lang);}catch(error){}
     document.querySelectorAll('[data-lang]').forEach(button=>{const active=button.dataset.lang===lang;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});
     document.querySelectorAll('[data-label-fr]').forEach(element=>element.setAttribute('aria-label',element.dataset[lang==='en'?'labelEn':'labelFr']));
+    document.querySelectorAll('[data-alt-fr]').forEach(element=>element.setAttribute('alt',element.dataset[lang==='en'?'altEn':'altFr']));
     const title=document.querySelector('title');if(title?.dataset.titleFr)document.title=title.dataset[lang==='en'?'titleEn':'titleFr'];
     if(description)description.content=lang==='en'?(description.dataset.descriptionEn||frenchDescription):frenchDescription;
     // Explicit language remains usable even when browser storage is unavailable.

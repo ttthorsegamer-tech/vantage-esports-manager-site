@@ -15,3 +15,11 @@ Static bilingual French/English website served by GitHub Pages at https://vantag
 ## 2.0.0 website refresh
 
 Shared mobile navigation, lighter hero, updated tournament information, current match features, Discord community information, keyboard access, reduced motion, page titles and description cleanup. Legal page contents and account-deletion instructions are preserved.
+
+
+## Public presentation — October 3, 2026
+
+- Discord navigation and calls to action use the official white Discord symbol, preserved unchanged from the official branding page.
+- `assets/app/` contains optimized WebP copies of existing VANTAGE application visuals. Keep their original aspect ratios.
+- Public synergy pages explain the roles and encourage experimentation. Do not publish weapon-to-role bonus tables, percentages, caps or calculation formulas on the website.
+- French and English content, the mobile menu, music preferences and the existing support/invitation flow remain available.

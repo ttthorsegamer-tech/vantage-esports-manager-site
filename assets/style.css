@@ -187,3 +187,35 @@ main:focus{outline:none}
   html{scroll-padding-top:90px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+
+/* Application imagery and official Discord identity */
+.discord-logo{display:inline-block;width:24px;height:18px;flex:0 0 24px;object-fit:contain;vertical-align:middle}
+a.discord-link,.foot a.discord-link{display:inline-flex;align-items:center;gap:8px}
+.discord-kicker{display:inline-flex;align-items:center;gap:10px}
+.discord-kicker .discord-logo{width:20px;height:15px;flex-basis:20px}
+.community-emblem img{display:block;width:56px;height:42px;object-fit:contain}
+.home-hero{grid-template-columns:1fr 1fr;gap:46px}
+.home-hero-art{position:relative;align-items:stretch}
+.app-hero-visual{position:relative;margin:0;border:1px solid rgba(39,229,255,.22);border-radius:24px;overflow:hidden;background:#07101d;box-shadow:0 30px 80px rgba(0,0,0,.36)}
+.app-hero-visual>img:first-child{display:block;width:100%;height:auto;aspect-ratio:1200/671;object-fit:cover}
+.app-hero-visual .app-hero-brand{position:absolute;width:35%;height:auto;left:3%;top:13%;filter:drop-shadow(0 7px 16px rgba(0,0,0,.6))}
+.app-hero-visual figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 24px 18px;background:linear-gradient(transparent,rgba(3,7,16,.9));color:#ecf6ff;font-weight:800;letter-spacing:.04em}
+.home-hero-art .hero-art-caption{margin-top:15px;line-height:1.6}
+.app-visual{margin:0;min-width:0;overflow:hidden;border:1px solid rgba(39,229,255,.2);border-radius:20px;background:#070e1d;box-shadow:0 24px 64px rgba(0,0,0,.2)}
+.app-visual>img{display:block;width:100%;height:auto}
+.app-visual figcaption{padding:16px 20px;border-top:1px solid rgba(39,229,255,.12);color:#bccde2;font-size:.85rem;line-height:1.6}
+.feature-art{display:block;width:calc(100% + 48px);max-width:none;height:auto;margin:-24px -24px 22px;border-radius:19px 19px 0 0}
+.update-grid article{overflow:hidden}
+.career-visual{margin-bottom:28px}
+.community-showcase{padding-bottom:44px}
+.community-visual>img{max-height:460px;object-fit:cover}
+.duo-visual{display:grid;place-items:center;align-content:center;min-height:310px;background:radial-gradient(circle at 50% 30%,rgba(39,229,255,.13),transparent 70%),#070e1d}
+.duo-visual>img{width:min(58%,240px);height:auto;margin:25px auto}
+.duo-visual figcaption{width:100%;text-align:center}
+.discovery-card{border-color:rgba(39,229,255,.3);background:linear-gradient(145deg,rgba(39,229,255,.09),rgba(8,15,30,.94))}
+.synergy-guide-card p+p{margin-top:0}
+.synergy-page-hero .badges span span{border:0;padding:0;background:none}
+@media(max-width:1000px){.home-hero{gap:28px}.update-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.update-grid article{padding:20px}.feature-art{width:calc(100% + 40px);margin:-20px -20px 20px}}
+@media(max-width:760px){.home-hero{grid-template-columns:1fr;gap:28px}.update-grid{grid-template-columns:1fr}.feature-art{max-height:230px;object-fit:cover}.home-hero-art{max-width:600px;width:100%;margin:0 auto}.app-hero-visual{border-radius:20px}.app-visual{border-radius:18px}.app-hero-visual figcaption{padding:25px 18px 15px}.community-showcase{padding-bottom:32px}}
+@media(max-width:620px){.home-hero{gap:26px}.discord-logo{width:22px;height:16.5px;flex-basis:22px}.duo-visual{min-height:260px}}
