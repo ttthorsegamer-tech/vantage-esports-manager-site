@@ -62,3 +62,11 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Cover 24-hour council contracts, Media Campaign at 25,000 in-game cash, owned equipped club frames and the dismissible Battle Pass preview.
 - Cumulative tutorial, academy and server improvements retained. Public source package and private tester channel are not linked.
 - Promotional artwork includes an app preview; phone testing continues with testers.
+
+
+## 3.0 launch presentation — October 4, 2026
+
+- Owner requested presenting the full 3.0 launch as enabled for closed testers.
+- Home, discovery and bilingual release notes cover Finance bank tiers, weekly repayment, voluntary bankruptcy, permanent Black, new Superstars at 100–200 and uncapped ticket training with gradual match gains.
+- Dedicated 3.0 campaign artwork is shared with the tester announcement; 2.1.2 notes are archived at `/updates/2-1-2/`.
+- Website publication does not deploy the game backend or submit its Android build. No public Play download link is added.
