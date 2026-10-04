@@ -54,3 +54,11 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Home summaries and bilingual `/updates/` notes cover tutorial validation/retry, academy training/PP, server synchronization and account/interface fixes.
 - Notes distinguish confirmed server deployment, build validation and pending OTA/phone validation.
 - Existing public Discord invitation, app artwork, prior tournament/skin corrections, synergy discovery and legal content are retained.
+
+
+## 2.1.2 release announcement — October 3, 2026
+
+- Owner is publishing OTA 2.1.2; home and bilingual release notes announce availability for testers on runtime/native baseline 2.1.0.
+- Cover 24-hour council contracts, Media Campaign at 25,000 in-game cash, owned equipped club frames and the dismissible Battle Pass preview.
+- Cumulative tutorial, academy and server improvements retained. Public source package and private tester channel are not linked.
+- Promotional artwork includes an app preview; phone testing continues with testers.
