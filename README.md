@@ -70,3 +70,12 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Home, discovery and bilingual release notes cover Finance bank tiers, weekly repayment, voluntary bankruptcy, permanent Black, new Superstars at 100–200 and uncapped ticket training with gradual match gains.
 - Dedicated 3.0 campaign artwork is shared with the tester announcement; 2.1.2 notes are archived at `/updates/2-1-2/`.
 - Website publication does not deploy the game backend or submit its Android build. No public Play download link is added.
+
+
+## Public game presentation — October 5, 2026
+
+- Home, discovery and updates now introduce all core systems in French and English: club and academy, tactics and staff, training and Be A Pro, Season/PvP/tournaments, Arena, Vault, finance and session rewards.
+- Premium World Elite Vantage is presented as the eighth division after Global Elite.
+- The new public campaign includes the original VANTAGE logo and a bespoke black/blue/gold team illustration. Pages use WebP without cropping; social previews use the full PNG.
+- Closed-test access, the existing public Discord invitation, language switching, navigation, music preferences and legal pages remain in place. Public Play availability is not asserted.
+- Black pricing is left to the actual Google Play purchase screen; its permanent +25% limit and normal repayment rules are retained.
