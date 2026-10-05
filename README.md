@@ -79,3 +79,12 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - The new public campaign includes the original VANTAGE logo and a bespoke black/blue/gold team illustration. Pages use WebP without cropping; social previews use the full PNG.
 - Closed-test access, the existing public Discord invitation, language switching, navigation, music preferences and legal pages remain in place. Public Play availability is not asserted.
 - Black pricing is left to the actual Google Play purchase screen; its permanent +25% limit and normal repayment rules are retained.
+
+
+## Premium update — October 5, 2026
+
+- `/updates/#premium-update` presents the premium update for closed testers in French and English: match highlights (ACE, 1vN CLUTCH, victory, defeat), remodeled shop with fixed tabs, sticky tabs on the main screens, “+” shortcuts (Shards → Shop, cash → Bank/Black), last-drop skin image, premium Settings icons, “AP Store” tab and quieter Google Play purchase prompts.
+- VANTAGE Black now adds **+100 %** to the unlocked credit limit: 2 M Bronze, 4 M Silver, 6 M Gold, 8 M Platinum, 10 M Diamond. The old +25 % wording was replaced on the home, discovery and updates pages (the production database migration `20261005063000_black_limit_x2` was applied the same day).
+- `assets/vantage-update-premium-{fr,en}.{webp,png}` is the announcement visual shared with the tester Discord channel (built from in-game assets). Pages use WebP without cropping; PNG is kept for social previews.
+- The home page shows a short “new” banner linking to the update notes. No stylesheet or script changed, so the CSS/script query versions are unchanged.
+- Website publication does not publish the Android OTA itself; the in-game update path is Settings › Version and updates.
