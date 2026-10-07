@@ -7,6 +7,8 @@
 <meta data-description-en="Request deletion of your VANTAGE Esports Manager account and associated data." name="description" content="Demander la suppression d'un compte VANTAGE Esports Manager et des données associées.">
 <link rel="stylesheet" href="/assets/style.css?v=300-20261004">
 <script defer src="/assets/lang.js?v=211-20261003-academy"></script>
+<script defer src="/assets/account-deletion.js?v=300-20261007"></script>
+<style>.deletion-form{margin:28px 0;padding:24px;border:1px solid var(--line);border-radius:18px;background:rgba(39,229,255,.04)}.deletion-form label{display:block;margin:16px 0 6px;font-weight:700}.deletion-form input,.deletion-form textarea{width:100%;padding:12px;border-radius:10px;border:1px solid #49637e;background:#081522;color:var(--text);font:inherit}.deletion-form textarea{resize:vertical}.deletion-form button{border:0;margin-top:18px;cursor:pointer}.deletion-form button:disabled{opacity:.6;cursor:wait}.deletion-form .hp{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%)}.deletion-status{margin-top:20px;padding:12px 16px;border-radius:12px;background:rgba(39,229,255,.08);overflow-wrap:anywhere}.deletion-status[data-state="error"],.deletion-status[data-state="invalid"]{background:rgba(255,110,110,.1)}.deletion-form :focus-visible{outline:2px solid var(--cyan);outline-offset:3px}</style>
 <link rel="canonical" href="https://vantageesportsmanager.xyz/delete-account/">
 <link rel="icon" href="/assets/vantage-logo.webp" type="image/webp">
 <meta name="theme-color" content="#050914">
@@ -28,11 +30,27 @@
 </div></div></header>
 
 <main id="main-content" tabindex="-1" class="wrap legal">
-<section class="fr">
-<h1>Suppression de compte</h1>
+<section aria-labelledby="deletion-title">
+<h1 id="deletion-title"><span class="fr">Suppression de compte</span><span class="en">Account deletion</span></h1>
 <p class="meta">VANTAGE Esports Manager</p>
+<p><span class="fr">Demande la suppression de ton compte et des données associées. Tu peux envoyer cette demande même si tu as désinstallé l’application.</span><span class="en">Request deletion of your account and associated data. You can submit this request even if you have uninstalled the app.</span></p>
+<form id="account-deletion-form" class="deletion-form" action="https://rjpvppbfzymjsqoxncnn.supabase.co/functions/v1/account-deletion" method="post">
+<label for="deletion-email"><span class="fr">Courriel du compte</span><span class="en">Account email</span></label>
+<input id="deletion-email" name="email" type="email" required maxlength="320" autocomplete="email" autocapitalize="none" spellcheck="false" aria-describedby="deletion-email-help">
+<p id="deletion-email-help"><span class="fr">Indique l’adresse utilisée pour te connecter à VANTAGE. Le support vérifiera que tu es le titulaire du compte avant toute suppression.</span><span class="en">Enter the email used to sign in to VANTAGE. Support will verify that you own the account before deleting any data.</span></p>
+<label for="deletion-note"><span class="fr">Note facultative</span><span class="en">Optional note</span></label>
+<textarea id="deletion-note" name="note" rows="4" maxlength="2000" aria-describedby="deletion-note-help"></textarea>
+<p id="deletion-note-help"><span class="fr">N’envoie aucun mot de passe, code de connexion ou renseignement de paiement.</span><span class="en">Do not send passwords, sign-in codes or payment details.</span></p>
+<div class="hp" aria-hidden="true"><label for="deletion-website">Website</label><input id="deletion-website" name="website" tabindex="-1" autocomplete="off"></div>
+<button type="submit" class="primary-btn"><span class="fr">Envoyer la demande</span><span class="en">Submit request</span></button>
+<div id="deletion-status" class="deletion-status" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<noscript><p><span class="fr">Pour envoyer ta demande sans JavaScript, écris au support avec l’adresse liée à ton compte :</span><span class="en">To submit your request without JavaScript, email support from the address linked to your account:</span> <a href="mailto:support@vantageesportsmanager.xyz?subject=VANTAGE%20account%20deletion">support@vantageesportsmanager.xyz</a>.</p></noscript>
+</form>
+</section>
 
-<h2>Comment demander la suppression</h2>
+<section class="fr">
+
+<h2>Demander la suppression par courriel</h2>
 <p>Pour demander la suppression de ton compte VANTAGE Esports Manager et des données associées :</p>
 <ol>
 <li>Envoie un courriel à <a href="mailto:support@vantageesportsmanager.xyz?subject=Suppression%20de%20compte%20VANTAGE">support@vantageesportsmanager.xyz</a> à partir de l'adresse liée à ton compte VANTAGE.</li>
@@ -60,10 +78,8 @@
 </section>
 
 <section class="en">
-<h1>Account deletion</h1>
-<p class="meta">VANTAGE Esports Manager</p>
 
-<h2>How to request deletion</h2>
+<h2>Request deletion by email</h2>
 <p>To request deletion of your VANTAGE Esports Manager account and associated data:</p>
 <ol>
 <li>Email <a href="mailto:support@vantageesportsmanager.xyz?subject=VANTAGE%20account%20deletion">support@vantageesportsmanager.xyz</a> from the email address linked to your VANTAGE account.</li>
