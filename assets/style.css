@@ -296,3 +296,17 @@ a.discord-link,.foot a.discord-link{display:inline-flex;align-items:center;gap:8
 @media(max-width:1050px){.official-hero{gap:27px}.official-hero h1{font-size:2.8rem}.official-hero .hero-actions{flex-direction:column;align-items:flex-start}.collection-heading{align-items:flex-start;flex-direction:column;gap:12px}.official-launch{gap:28px;padding:32px}.official-launch .hero-actions{flex-direction:column;align-items:flex-start}}
 @media(max-width:760px){.official-hero{grid-template-columns:minmax(0,1fr);padding-top:37px;padding-bottom:28px;gap:27px}.official-hero h1{font-size:clamp(2.5rem,9vw,3.5rem)}.official-hero .hero-actions{flex-direction:row;align-items:center}.launch-pillars{grid-template-columns:minmax(0,1fr);gap:12px;padding-bottom:37px}.launch-pillars article{padding:22px}.official-modes{padding-bottom:45px}.launch-mode-grid{grid-template-columns:minmax(0,1fr);gap:18px}.launch-mode>div{padding:22px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.collection-art{padding:15px}.collection-card figcaption{padding:0 15px 18px}.collection-card h3{font-size:.99rem}.launch-collection{padding-bottom:44px}.official-launch{grid-template-columns:minmax(0,1fr);padding:27px 23px;gap:24px;margin-bottom:42px}.official-launch h2{font-size:2rem}.official-launch .hero-actions{flex-direction:row;align-items:center}.official-release-note{margin-top:30px;padding:25px}.launch-note-grid{grid-template-columns:minmax(0,1fr);gap:22px}.art-caption{padding-top:12px;font-size:.72rem}.official-launch,.official-release-note{scroll-margin-top:90px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Support section spacing and horizontal career information. */
+.support-community{margin-top:clamp(36px,4vw,56px);margin-bottom:0}
+.career-road{grid-template-columns:minmax(0,1fr);gap:18px}
+.career-road .road-card{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);align-items:start;gap:28px;padding:26px 28px;scroll-margin-top:16px}
+.road-card-heading{display:flex;align-items:flex-start;gap:16px;min-width:0}
+.road-card-heading>span{display:inline-grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:rgba(39,229,255,.1);color:var(--cyan);font-weight:900;font-size:.78rem}
+.road-card-heading h3{margin:3px 0 0;font-size:1.1rem;line-height:1.5}
+.road-card-copy{min-width:0;padding-left:28px;border-left:1px solid rgba(39,229,255,.14)}
+.road-card-copy p{margin:0;line-height:1.8;overflow-wrap:break-word}
+html[lang="fr"] .road-card-copy .fr~.fr,html[lang="en"] .road-card-copy .en~.en{margin-top:16px}
+.road-card-copy strong{color:#e8f4ff}
+.road-card-copy .road-card-note{padding-top:14px;border-top:1px solid var(--line);font-size:.9rem}
+@media(max-width:820px){.career-road .road-card{grid-template-columns:minmax(0,1fr);gap:18px;padding:23px}.road-card-copy{padding-left:0;border-left:0}.road-card-heading{align-items:center}.road-card-heading h3{margin:0}.support-community{margin-top:36px}}
