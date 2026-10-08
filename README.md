@@ -88,3 +88,10 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - `assets/vantage-update-premium-{fr,en}.{webp,png}` is the announcement visual shared with the tester Discord channel (built from in-game assets). Pages use WebP without cropping; PNG is kept for social previews.
 - The home page shows a short “new” banner linking to the update notes. No stylesheet or script changed, so the CSS/script query versions are unchanged.
 - Website publication does not publish the Android OTA itself; the in-game update path is Settings › Version and updates.
+
+## Official release preparation — October 7, 2026
+
+- Home presents the public launch, game modes and actual Battle Pass artwork with a bilingual release section and FAQ.
+- Public availability is still forthcoming; announce the date and Google Play link only when confirmed.
+- Latest launch news is at `/updates/#lancement`. Support and community copy are public-facing.
+- Reward WebP files are optimized copies of app assets. Account deletion, privacy, music preferences and Discord invitation are retained.
