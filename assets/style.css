@@ -248,7 +248,7 @@ a.discord-link,.foot a.discord-link{display:inline-flex;align-items:center;gap:8
 .launch-tags li::before{content:"";width:4px;height:4px;border-radius:50%;background:var(--cyan)}
 .official-art{min-width:0;padding:10px;border:1px solid rgba(39,229,255,.23);border-radius:22px;background:linear-gradient(145deg,rgba(39,229,255,.055),rgba(8,15,30,.95));box-shadow:0 26px 70px rgba(0,0,0,.28)}
 .official-art .launch-poster{margin:0;width:100%;border:0;border-radius:14px;overflow:hidden}
-.official-art .launch-poster img{display:block;width:100%;height:auto;object-fit:contain}
+.official-art .launch-poster img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
 .art-caption{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 8px 6px;font-size:.76rem;color:#a8bbd0}
 .art-mark{color:#e1be6c;font-weight:800;white-space:nowrap;font-size:.69rem;letter-spacing:.08em}
 .launch-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-bottom:58px}
