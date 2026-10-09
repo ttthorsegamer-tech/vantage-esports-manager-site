@@ -95,3 +95,12 @@ Shared mobile navigation, lighter hero, updated tournament information, current 
 - Public availability is still forthcoming; announce the date and Google Play link only when confirmed.
 - Latest launch news is at `/updates/#lancement`. Support and community copy are public-facing.
 - Reward WebP files are optimized copies of app assets. Account deletion, privacy, music preferences and Discord invitation are retained.
+
+
+## Official 4.0.0 announcement — October 9, 2026
+
+- Home, discovery and `/updates/#version-4-0-0` present the official 4.0.0 milestone in French and English, with a dedicated branded promotional image.
+- Covers seven distinctive Season map environments, 360° viewing and calmer camera pacing, coherent hologram actions and refined auras, distinct page backgrounds and translucent cards, larger nine-case artwork, and two tickets per verified completed rewarded ad.
+- Explains the actual app foundation: React 19.1, React Native 0.81.5 and Expo SDK 54; Three.js/WebGL renders mini-maps inside the integrated native WebView. It does not present React Native as the 3D renderer.
+- Google Play availability and a public download link remain unconfirmed; copy announces the version without asserting that the Android build is available. Previous dated announcements and all legal/support content are retained.
+- CSS cache version updated across every HTML page. Dedicated art is labelled promotional, not an in-game screenshot.
